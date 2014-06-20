@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D37A1C1E1954EAFA00372050 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37A1C1D1954EAFA00372050 /* Foundation.framework */; };
+		D37A1C201954EAFA00372050 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37A1C1F1954EAFA00372050 /* CoreGraphics.framework */; };
+		D37A1C221954EAFA00372050 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37A1C211954EAFA00372050 /* UIKit.framework */; };
+		D37A1C281954EAFA00372050 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D37A1C261954EAFA00372050 /* InfoPlist.strings */; };
+		D37A1C2A1954EAFA00372050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D37A1C291954EAFA00372050 /* main.m */; };
+		D37A1C2E1954EAFA00372050 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D37A1C2D1954EAFA00372050 /* AppDelegate.m */; };
+		D37A1C311954EAFA00372050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37A1C2F1954EAFA00372050 /* Main.storyboard */; };
+		D37A1C341954EAFA00372050 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37A1C331954EAFA00372050 /* ViewController.m */; };
+		D37A1C361954EAFA00372050 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37A1C351954EAFA00372050 /* Images.xcassets */; };
+		D37A1C3D1954EAFA00372050 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37A1C3C1954EAFA00372050 /* XCTest.framework */; };
+		D37A1C3E1954EAFA00372050 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37A1C1D1954EAFA00372050 /* Foundation.framework */; };
+		D37A1C3F1954EAFA00372050 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37A1C211954EAFA00372050 /* UIKit.framework */; };
+		D37A1C471954EAFA00372050 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D37A1C451954EAFA00372050 /* InfoPlist.strings */; };
+		D37A1C491954EAFA00372050 /* OCWordFrequencyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D37A1C481954EAFA00372050 /* OCWordFrequencyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D37A1C401954EAFA00372050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D37A1C121954EAFA00372050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D37A1C191954EAFA00372050;
+			remoteInfo = OCWordFrequency;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D37A1C1A1954EAFA00372050 /* OCWordFrequency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCWordFrequency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37A1C1D1954EAFA00372050 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D37A1C1F1954EAFA00372050 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D37A1C211954EAFA00372050 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D37A1C251954EAFA00372050 /* OCWordFrequency-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCWordFrequency-Info.plist"; sourceTree = "<group>"; };
+		D37A1C271954EAFA00372050 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D37A1C291954EAFA00372050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D37A1C2B1954EAFA00372050 /* OCWordFrequency-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCWordFrequency-Prefix.pch"; sourceTree = "<group>"; };
+		D37A1C2C1954EAFA00372050 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D37A1C2D1954EAFA00372050 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D37A1C301954EAFA00372050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D37A1C321954EAFA00372050 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D37A1C331954EAFA00372050 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D37A1C351954EAFA00372050 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D37A1C3B1954EAFA00372050 /* OCWordFrequencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCWordFrequencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37A1C3C1954EAFA00372050 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D37A1C441954EAFA00372050 /* OCWordFrequencyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCWordFrequencyTests-Info.plist"; sourceTree = "<group>"; };
+		D37A1C461954EAFA00372050 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D37A1C481954EAFA00372050 /* OCWordFrequencyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCWordFrequencyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D37A1C171954EAFA00372050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37A1C201954EAFA00372050 /* CoreGraphics.framework in Frameworks */,
+				D37A1C221954EAFA00372050 /* UIKit.framework in Frameworks */,
+				D37A1C1E1954EAFA00372050 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37A1C381954EAFA00372050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37A1C3D1954EAFA00372050 /* XCTest.framework in Frameworks */,
+				D37A1C3F1954EAFA00372050 /* UIKit.framework in Frameworks */,
+				D37A1C3E1954EAFA00372050 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D37A1C111954EAFA00372050 = {
+			isa = PBXGroup;
+			children = (
+				D37A1C231954EAFA00372050 /* OCWordFrequency */,
+				D37A1C421954EAFA00372050 /* OCWordFrequencyTests */,
+				D37A1C1C1954EAFA00372050 /* Frameworks */,
+				D37A1C1B1954EAFA00372050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D37A1C1B1954EAFA00372050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D37A1C1A1954EAFA00372050 /* OCWordFrequency.app */,
+				D37A1C3B1954EAFA00372050 /* OCWordFrequencyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D37A1C1C1954EAFA00372050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D37A1C1D1954EAFA00372050 /* Foundation.framework */,
+				D37A1C1F1954EAFA00372050 /* CoreGraphics.framework */,
+				D37A1C211954EAFA00372050 /* UIKit.framework */,
+				D37A1C3C1954EAFA00372050 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D37A1C231954EAFA00372050 /* OCWordFrequency */ = {
+			isa = PBXGroup;
+			children = (
+				D37A1C2C1954EAFA00372050 /* AppDelegate.h */,
+				D37A1C2D1954EAFA00372050 /* AppDelegate.m */,
+				D37A1C2F1954EAFA00372050 /* Main.storyboard */,
+				D37A1C321954EAFA00372050 /* ViewController.h */,
+				D37A1C331954EAFA00372050 /* ViewController.m */,
+				D37A1C351954EAFA00372050 /* Images.xcassets */,
+				D37A1C241954EAFA00372050 /* Supporting Files */,
+			);
+			path = OCWordFrequency;
+			sourceTree = "<group>";
+		};
+		D37A1C241954EAFA00372050 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D37A1C251954EAFA00372050 /* OCWordFrequency-Info.plist */,
+				D37A1C261954EAFA00372050 /* InfoPlist.strings */,
+				D37A1C291954EAFA00372050 /* main.m */,
+				D37A1C2B1954EAFA00372050 /* OCWordFrequency-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D37A1C421954EAFA00372050 /* OCWordFrequencyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D37A1C481954EAFA00372050 /* OCWordFrequencyTests.m */,
+				D37A1C431954EAFA00372050 /* Supporting Files */,
+			);
+			path = OCWordFrequencyTests;
+			sourceTree = "<group>";
+		};
+		D37A1C431954EAFA00372050 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D37A1C441954EAFA00372050 /* OCWordFrequencyTests-Info.plist */,
+				D37A1C451954EAFA00372050 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D37A1C191954EAFA00372050 /* OCWordFrequency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37A1C4C1954EAFA00372050 /* Build configuration list for PBXNativeTarget "OCWordFrequency" */;
+			buildPhases = (
+				D37A1C161954EAFA00372050 /* Sources */,
+				D37A1C171954EAFA00372050 /* Frameworks */,
+				D37A1C181954EAFA00372050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCWordFrequency;
+			productName = OCWordFrequency;
+			productReference = D37A1C1A1954EAFA00372050 /* OCWordFrequency.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D37A1C3A1954EAFA00372050 /* OCWordFrequencyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37A1C4F1954EAFA00372050 /* Build configuration list for PBXNativeTarget "OCWordFrequencyTests" */;
+			buildPhases = (
+				D37A1C371954EAFA00372050 /* Sources */,
+				D37A1C381954EAFA00372050 /* Frameworks */,
+				D37A1C391954EAFA00372050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D37A1C411954EAFA00372050 /* PBXTargetDependency */,
+			);
+			name = OCWordFrequencyTests;
+			productName = OCWordFrequencyTests;
+			productReference = D37A1C3B1954EAFA00372050 /* OCWordFrequencyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D37A1C121954EAFA00372050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tim Stephenson";
+				TargetAttributes = {
+					D37A1C3A1954EAFA00372050 = {
+						TestTargetID = D37A1C191954EAFA00372050;
+					};
+				};
+			};
+			buildConfigurationList = D37A1C151954EAFA00372050 /* Build configuration list for PBXProject "OCWordFrequency" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D37A1C111954EAFA00372050;
+			productRefGroup = D37A1C1B1954EAFA00372050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D37A1C191954EAFA00372050 /* OCWordFrequency */,
+				D37A1C3A1954EAFA00372050 /* OCWordFrequencyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D37A1C181954EAFA00372050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37A1C361954EAFA00372050 /* Images.xcassets in Resources */,
+				D37A1C281954EAFA00372050 /* InfoPlist.strings in Resources */,
+				D37A1C311954EAFA00372050 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37A1C391954EAFA00372050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37A1C471954EAFA00372050 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D37A1C161954EAFA00372050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37A1C341954EAFA00372050 /* ViewController.m in Sources */,
+				D37A1C2E1954EAFA00372050 /* AppDelegate.m in Sources */,
+				D37A1C2A1954EAFA00372050 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37A1C371954EAFA00372050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37A1C491954EAFA00372050 /* OCWordFrequencyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D37A1C411954EAFA00372050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D37A1C191954EAFA00372050 /* OCWordFrequency */;
+			targetProxy = D37A1C401954EAFA00372050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D37A1C261954EAFA00372050 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37A1C271954EAFA00372050 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D37A1C2F1954EAFA00372050 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37A1C301954EAFA00372050 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D37A1C451954EAFA00372050 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37A1C461954EAFA00372050 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D37A1C4A1954EAFA00372050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D37A1C4B1954EAFA00372050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D37A1C4D1954EAFA00372050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCWordFrequency/OCWordFrequency-Prefix.pch";
+				INFOPLIST_FILE = "OCWordFrequency/OCWordFrequency-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D37A1C4E1954EAFA00372050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCWordFrequency/OCWordFrequency-Prefix.pch";
+				INFOPLIST_FILE = "OCWordFrequency/OCWordFrequency-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D37A1C501954EAFA00372050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCWordFrequency.app/OCWordFrequency";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCWordFrequency/OCWordFrequency-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OCWordFrequencyTests/OCWordFrequencyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D37A1C511954EAFA00372050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCWordFrequency.app/OCWordFrequency";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCWordFrequency/OCWordFrequency-Prefix.pch";
+				INFOPLIST_FILE = "OCWordFrequencyTests/OCWordFrequencyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D37A1C151954EAFA00372050 /* Build configuration list for PBXProject "OCWordFrequency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37A1C4A1954EAFA00372050 /* Debug */,
+				D37A1C4B1954EAFA00372050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D37A1C4C1954EAFA00372050 /* Build configuration list for PBXNativeTarget "OCWordFrequency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37A1C4D1954EAFA00372050 /* Debug */,
+				D37A1C4E1954EAFA00372050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D37A1C4F1954EAFA00372050 /* Build configuration list for PBXNativeTarget "OCWordFrequencyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37A1C501954EAFA00372050 /* Debug */,
+				D37A1C511954EAFA00372050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D37A1C121954EAFA00372050 /* Project object */;
+}
