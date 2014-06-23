@@ -20,7 +20,7 @@ Please provide reasoning on how the solution obeys the O(n) constraint.
 
 There are two implementations of the sortedWordFrequency method.
 
-Because I am excited about Swift, I've done the assignment twice. The fist time, using swift. I then implemented the same methods again using Objective-c.
+I am excited about Swift, so I've done both implementations twice. The fist time, using swift, and the same methods again using Objective-c.
 
 This is the Ojvective-c version. [View Swift Version](https://github.com/timstephenson/WordFrequency)
 
@@ -44,7 +44,7 @@ both methods in the class for additional exploration.
 
 You can run the application to see it display the top 20 words from the textView. There is also a suite of tests that verify functionality.
 
-I've tried to meet the linear time constraint by using data structures built specifically for this type of task, and limiting iterations over the data. I've also prepared tests to measure the time it take to complete the text as the string gets larger. Here's some data for the two methods. All of my measurement was done using Swift.
+I've tried to meet the linear time constraint by using data structures built specifically for this type of task, and limiting iterations over the data. I've also prepared tests to measure the time it takes to complete the task as the text input string gets larger. Here's some data for the two methods. All of my measurement was done using Swift.
 
 
 Method                      | Time for:  | 191,250 Chrs | 382,500 Chrs | 765,000 Chrs | 1,530,000 Chrs | 3,060,000 Chrs
