@@ -1,8 +1,9 @@
 # Coding Challenge
 
 Write a function that takes two parameters:
-(1) a String representing the contents of a text document
-(2) an integer providing the number of items to return
+
+1. a String representing the contents of a text document
+2. an integer providing the number of items to return
 
 Implement the function such that it returns a list of Strings ordered by word frequency, the most frequently occurring word first.
 Use your best judgment to decide how words are separated.
@@ -25,8 +26,9 @@ I am excited about Swift, so I've done both implementations twice. The fist time
 This is the Ojvective-c version. [View Swift Version](https://github.com/timstephenson/WordFrequency)
 
 Both methods take two parameters:
-(1) a String representing the contents of a text document
-(2) an integer providing the number of items to return
+
+1. a String representing the contents of a text document
+2. an integer providing the number of items to return
 
 Both methods return a sorted array of dictionary objecst that contains the Strings ordered by word frequency,
 the most frequently occurring word first.
