@@ -58,7 +58,6 @@
 
 // Describe .sortedListWithLimit(unsortedWords: NSMutableArray, limit: Int) -> NSArray
 -(void)testSortedListWithLimitShouldReturnLimitNumberOfItems {
-    
     NSMutableArray *testArray = [[NSMutableArray alloc] initWithObjects:@{ @"word": @"zebra", @"count": @3 }, @{ @"word": @"test", @"count": @5} , @{ @"word": @"swift", @"count": @5 }, nil] ;
 
     NSArray *sortedWords = [words sortedListWithLimit:testArray limit:1];
@@ -68,7 +67,7 @@
 -(void)testSortedListWithLimitShouldReturnAllItemsWhenLimitIsLarger {
     NSMutableArray *testArray = [[NSMutableArray alloc] initWithObjects:@{ @"word": @"zebra", @"count": @3 }, @{ @"word": @"test", @"count": @5} , @{ @"word": @"swift", @"count": @5 }, nil];
     NSArray *sortedWords = [words sortedListWithLimit:testArray limit:100];
-    XCTAssertTrue([sortedWords count] == 3, @"There should 3 element in the array.");
+    XCTAssertTrue([sortedWords count] == 3, @"There should 3 elements in the array.");
 }
 
 -(void)testSortedListWithLimitShouldReturnMostFrequentFirst {
@@ -114,7 +113,7 @@
 //// To do: If this is undesirable, implement less naive approach that also handles plural and other edge cases.
 -(void)testArrayOfWordsFromStringReturnsWordsWrappedInSingleQuotes {
     NSArray *wordArray = [words arrayOfWordsFromString: @" Did you eat your 'spinach'?   "];
-    XCTAssertTrue([wordArray containsObject: @"'spinach'"], "Words with wrapped in quotes should still exist. But should be lowercase.");
+    XCTAssertTrue([wordArray containsObject: @"'spinach'"], "Words wrapped in quotes should still exist. But should be lowercase.");
 }
 
 // Describe .fasterSorteddWordFrequency(text: NSString, limit: Int) -> NSArray

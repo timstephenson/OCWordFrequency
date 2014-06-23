@@ -13,6 +13,7 @@
 @synthesize sortDescriptor;
 
 - (NSArray *)sortedWordFrequency:(NSString *)text limit:(int)limit {
+    
     NSMutableArray *unsortedWords = [[NSMutableArray alloc] initWithCapacity:0];
     NSCountedSet *countedWords = [self countedSetFromString:text];
     
@@ -20,7 +21,9 @@
         [unsortedWords addObject:@{@"word": object,
                                @"count": @([countedWords countForObject:object])}];
     }];
+    
     return [self sortedListWithLimit:unsortedWords limit:limit];
+    
 }
 
 - (NSCountedSet *)countedSetFromString:(NSString *)text {
@@ -34,7 +37,9 @@
                                 // Add each substring to the counted set object
                                 [countedSetOfWords addObject:[ substring lowercaseString] ];
                             }];
+    
     return countedSetOfWords;
+    
 }
 
 // Expects two argumennts
@@ -43,6 +48,7 @@
 // The array is sorted according to the sortDescriptor.
 // If the resulting arrya is longer than the limit, a range of the array is returned.
 - (NSArray *)sortedListWithLimit:(NSMutableArray *)unsortedWords  limit:(int)limit {
+    
     NSArray *wordsSubset;
     
     self.sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"count" ascending:NO];
@@ -55,6 +61,7 @@
     } else {
         return [wordsSubset subarrayWithRange: NSMakeRange(0, limit)];
     }
+    
 }
 
 /*
@@ -75,6 +82,7 @@
     }];
     
     return [self sortedListWithLimit:unsortedWords limit:limit];
+    
 }
 
 /*
@@ -90,6 +98,7 @@
     // Remove empty strings from the array
     NSArray *words = [[text lowercaseString] componentsSeparatedByCharactersInSet: [separators invertedSet]];
     return [words filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"self <> ''"]];
+    
 }
 
 
