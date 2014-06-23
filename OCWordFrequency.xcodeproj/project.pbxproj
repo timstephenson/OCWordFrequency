@@ -21,6 +21,7 @@
 		D37A1C3F1954EAFA00372050 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37A1C211954EAFA00372050 /* UIKit.framework */; };
 		D37A1C471954EAFA00372050 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D37A1C451954EAFA00372050 /* InfoPlist.strings */; };
 		D37A1C491954EAFA00372050 /* OCWordFrequencyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D37A1C481954EAFA00372050 /* OCWordFrequencyTests.m */; };
+		D37A1C541954EB2E00372050 /* WordFrequency.m in Sources */ = {isa = PBXBuildFile; fileRef = D37A1C531954EB2E00372050 /* WordFrequency.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D37A1C441954EAFA00372050 /* OCWordFrequencyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCWordFrequencyTests-Info.plist"; sourceTree = "<group>"; };
 		D37A1C461954EAFA00372050 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D37A1C481954EAFA00372050 /* OCWordFrequencyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCWordFrequencyTests.m; sourceTree = "<group>"; };
+		D37A1C521954EB2E00372050 /* WordFrequency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordFrequency.h; sourceTree = "<group>"; };
+		D37A1C531954EB2E00372050 /* WordFrequency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordFrequency.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				D37A1C331954EAFA00372050 /* ViewController.m */,
 				D37A1C351954EAFA00372050 /* Images.xcassets */,
 				D37A1C241954EAFA00372050 /* Supporting Files */,
+				D37A1C521954EB2E00372050 /* WordFrequency.h */,
+				D37A1C531954EB2E00372050 /* WordFrequency.m */,
 			);
 			path = OCWordFrequency;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37A1C541954EB2E00372050 /* WordFrequency.m in Sources */,
 				D37A1C341954EAFA00372050 /* ViewController.m in Sources */,
 				D37A1C2E1954EAFA00372050 /* AppDelegate.m in Sources */,
 				D37A1C2A1954EAFA00372050 /* main.m in Sources */,

@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WordFrequency.h"
 
 @interface ViewController : UIViewController
+
+@property IBOutlet UITextView *textView;
+@property IBOutlet UITextView *commonWordsTextView;
+@property WordFrequency *wordFrequency;
+@property NSArray *mostFrequentWords;
 
 @end
