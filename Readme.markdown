@@ -22,9 +22,7 @@ There are two implementations of the sortedWordFrequency method.
 
 Because I am excited about Swift, I've done the assignment twice. The fist time, using swift. I then implemented the same methods again using Objective-c.
 
-WordFrequency is the Swift version of the challenge. [View Swift Version](https://github.com/timstephenson/WordFrequency)
-
-OCWordFrequency is the Objective-C version.
+This is the Ojvective-c version. [View Swift Version](https://github.com/timstephenson/WordFrequency)
 
 Both methods take two parameters:
 (1) a String representing the contents of a text document
